@@ -4,6 +4,7 @@ import numpy as np
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import seaborn as sns
+from scipy.optimize import minimize
 from scipy.stats import f_oneway, mannwhitneyu, kruskal, levene, bartlett
 from scipy.optimize import minimize
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
